@@ -103,17 +103,7 @@ class DatasiftReceiver(
         }
         
       })
-      /**
-       * We have to look into the Receiver implementation;
-       * the received data items are 'stored' store()
-       */
-    
-    /**
-     * The streaming API always returns data as JSON objects.
-     * http://dev.datasift.com/docs/streaming-api/sample-output/sample-output-twitter
-     * 
-     * https://github.com/datasift/datasift-java/
-     */
+
       setDataSift(newDataSift)
       logInfo("DataSift receiver started")
       
