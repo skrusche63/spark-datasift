@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>spark-datasift</groupId>
   <artifactId>spark-datasift</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1</version>
   <name>Spark-DataSift</name>
   <inceptionYear>2010</inceptionYear>
   <licenses>
@@ -19,6 +19,7 @@
     <encoding>UTF-8</encoding>
     <scala.tools.version>2.10</scala.tools.version>
     <scala.version>2.10.0</scala.version>
+    <spark.version>1.2.0</spark.version>
   </properties>
 
   <dependencies>
@@ -48,23 +49,18 @@
       <scope>test</scope>
     </dependency>
 
-    <!-- spark 1.0.1 -->
+    <!-- spark core -->
     <dependency>
 	  <groupId>org.apache.spark</groupId>
 	  <artifactId>spark-core_2.10</artifactId>
-	  <version>1.0.1</version>
+	  <version>${spark.version}</version>
     </dependency>
             
-    <!-- spark streaming 1.0.1 -->
+    <!-- spark streaming -->
     <dependency>
 	  <groupId>org.apache.spark</groupId>
 	  <artifactId>spark-streaming_2.10</artifactId>
-	  <version>1.0.1</version>
-    </dependency>
-    <dependency>
-	  <groupId>org.apache.spark</groupId>
-	  <artifactId>spark-streaming-twitter_2.10</artifactId>
-	  <version>1.0.1</version>
+	  <version>${spark.version}</version>
     </dependency>
 
     <dependency>
@@ -118,4 +114,8 @@
     </plugins>
   </build>
   <description>DataSift Streaming for Apache Spark</description>
+  <organization>
+  	<name>Dr. Krusche &amp; Partner PartG</name>
+  	<url>http://dr-kruscheundpartner.com</url>
+  </organization>
 </project>

@@ -1,3 +1,3 @@
-![Dr.Krusche & Partner PartG](https://raw.github.com/skrusche63/spark-elastic/master/images/dr-kruscheundpartner.png)
+![Predictiveworks](https://raw.githubusercontent.com/skrusche63/spark-datasift/master/images/predictiveworks.png)
 
 ## DataSift Streaming for Apache Spark
